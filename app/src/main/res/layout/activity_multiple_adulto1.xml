@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.jesus95.petvet.PreguntasMultiples.MultipleAdulto1">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="@drawable/alimento" />
+
+        <TextView
+            android:id="@+id/texto_pregunta"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="84dp"
+            android:text="Pregunta aqui"
+            android:textSize="22sp"
+            android:textColor="@color/negro"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonA"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+
+                    android:layout_gravity="center"
+                    android:background="@drawable/botonmultiple"
+                    android:layout_marginRight="5dp"
+                    android:text="OPCION A"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/buttonB"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/botonmultiple"
+                    android:text="OPCION B"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonC"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/botonmultiple"
+                    android:layout_marginRight="5dp"
+                    android:text="OPCION C"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/buttonD"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/botonmultiple"
+                    android:text="OPCION D"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonE"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+
+                    android:layout_gravity="center"
+                    android:background="@drawable/botonmultiple"
+                    android:layout_marginRight="5dp"
+                    android:text="OPCION E"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/buttonF"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/botonmultiple"
+                    android:text="OPCION F"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>

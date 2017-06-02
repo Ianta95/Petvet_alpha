@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#586d80</color>
+    <color name="colorBackgroundfragment">#e3e5e5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#23a3dc</color>
+    <color name="white">#ffffff</color>
+    <color name="navigationoptioncolor">#23a3dc</color>
+    <color name="gray">#b9b8b8</color>
+    <color name="colorTextoBotones">#ffffff</color>
+    <color name="negro">#232323</color>
+    <color name="blanco">#ffffff</color>
+    <color name="color_botones">#52c5f9</color>
+    <color name="rojo">#fc0101</color>
+    <color name="petvetPrimary">#586d80</color>
+    <color name="petvetSecondary">#23a3dc</color>
+    <color name="petvetText">#444444</color>
+    <color name="petvetOrange">#f2ba7c</color>
+    <color name="petvetPurple">#7c7cf2</color>
+    <color name="petvetPink">#f47a9a</color>
+
+    <color name="colorPrimary1">#586d80</color>
+    <color name="colorPrimaryDark1">#303F9F</color>
+    <color name="colorAccent1">#FF4081</color>
+</resources>

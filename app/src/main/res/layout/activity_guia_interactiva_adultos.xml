@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e5e5"
+    android:orientation="vertical"
+    tools:context="com.example.jesus95.petvet.Guias.GuiaInteractivaAdultos">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:background="@drawable/alimento" />
+
+    <TextView
+        android:id="@+id/texto_pregunta"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:text="Pregunta aqui"
+        android:textSize="22sp"
+        android:textColor="@color/negro"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_pregunta1"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#7c7cf2"
+            android:text="@string/opcionA"
+            android:textColor="@color/colorTextoBotones"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_pregunta2"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#79d66b"
+            android:text="@string/opcionB"
+            android:textColor="@color/colorTextoBotones"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_pregunta3"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#f47a9a"
+            android:text="@string/opcionC"
+            android:textColor="@color/colorTextoBotones"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

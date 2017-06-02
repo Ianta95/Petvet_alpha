@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Petvet</string>
+    <string name="guias">Guias</string>
+    <string name="calendario">Calendario</string>
+    <string name="perfil">Perfil</string>
+    <string name="otro">Otro</string>
+    <string name="radar">Radar</string>
+    <string name="opcionA">A</string>
+    <string name="opcionB">B</string>
+    <string name="opcionC">C</string>
+    <string name="opcionD">D</string>
+    <string name="inicio_pregunta">Pregunta</string>
+    <string name="score">Score:</string>
+    <string name="fallos">Fallos:</string>
+    <string name="texto_seleccionar_fecha">Selecciona una fecha para el evento:</string>
+    <string name="fecha_default">22/05</string>
+    <string name="texto_boton_fecha"> Elegir Fecha </string>
+    <string name="texto_seleccionar_hora">Selecciona una hora para el evento:</string>
+    <string name="hora_default">13:00</string>
+    <string name="texto_boton_hora"> Elegir Hora </string>
+    <string name="texto_boton_guardar">Guardar evento</string>
+
+    <string name="opcion_correcta">Correcto!!!</string>
+    <string name="opcion_incorrecta">Ten Cuidado!</string>
+
+    <string name="tip">-TIP-</string>
+    <string name="tip1">Para darle leche al carrocho, debe ser en un biberon a 37ºc</string>
+    <string name="tip2">Es recomendable dejar agua fresca cerca de dónde
+        está comiendo nuestro perro, por si siente que se atora su comida</string>
+    <string name="tip3">Siempre utiliza comida recomendada por veterinarios esto 
+        puede ayudar a prevenir futuras enfermedades</string>
+    <string name="tip4"> Siempre debemos de tomar en cuenta que edad o problemas 
+        (renal, sobrepeso, alergias) tiene nuestro perro para darle una comida correcta</string>
+    <string name="tip5"> Lavar los platos de comida y agua de nuestro perros previene enfermedades </string>
+    <string name="tip6"> Si tu perro realiza una actividad física demandante es recomendable dar un poco más de comida </string>
+    <string name="tip7"> Existen vitaminas que los ayudan a estar más saludables </string>
+
+
+    <string name="medallatext">¡Felicidades!</string>
+    <string name="medalladescripcion">Conseguiste 100 puntos,\n sigue aprendiendo con</string>
+    <string name="failtext">¡Ups!</string>
+    <string name="faildescripcion">Aun te falta mas por aprender,\nsigue aprendiendo con</string>
+
+    <string name="bloqueadoadulto">La opcion esta bloqueada, desbloqueala pasando la seccion CACHORROS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="name_pet">Zoe</string>
+    <string name="raza">Chihuahueño</string>
+    <string name="genero">Macho</string>
+    <string name="nacimiento">31/07</string>
+    <string name="edad">5 años</string>
+    <string name="biografia">Hola, me gusta mucho salir a pasear, atrapar la pelota, jugar correteadas y me fascina comer galletitas en forma de huesos.</string>
+    <string name="recordar">Recordar</string>
+    <string name="btn_edit">Editar</string>
+    <string name="tv_cita">CITA</string>
+    <string name="tv_vacuna">VACUNAR</string>
+    <string name="tv_desparasitar">DESPARASITAR</string>
+    <string name="tv_alimentar">ALIMENTAR</string>
+    <string name="title_activity_localizacion">Map</string>
+    <string name="tv_politicas">Al usar Petvet aceptas las Políticas de privacidad</string>
+    <string name="tv_restablecer">¿Has olvidado tu contraseña?</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_register">Regístrate</string>
+</resources>

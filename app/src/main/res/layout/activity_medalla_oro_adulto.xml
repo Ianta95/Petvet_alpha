@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        android:id="@+id/layout_principal"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.jesus95.petvet.Medallas.MedallaOroAdulto">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/medallaalimento" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medallatext"
+            android:textSize="30sp"
+            android:textColor="@color/negro"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30sp"
+            android:layout_marginEnd="30sp"
+            android:text="@string/medalladescripcion"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/logotipo"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:text="PETVET"
+            android:textColor="@color/negro"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
